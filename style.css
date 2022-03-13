@@ -1,0 +1,68 @@
+
+
+body {
+    margin: 40px auto;
+    max-width: 1000px;
+    line-height: 1.6;
+    font-size: 18px;
+    color: #444;
+    background-color: #EEEEEE;
+}
+
+.flex-container {
+    margin-top: 0px;
+    display: flex;
+}
+
+.flex-child {
+    flex: 1 1 0;
+}  
+
+.flex-child:first-child {
+    flex: 2 1 0;
+    margin-right: 20px;
+} 
+
+.header {
+    position: relative;
+    height: 250px;
+    /*border:2px solid red; */
+}
+
+.container .header .image {
+    float: left;
+    width: 200px;
+    /*border:2px solid green; */
+}
+
+.container .header .text {
+    /*position: absolute;
+    marigin-left: 100px;
+    float: left;
+    display: inline-block;
+    vertical-align: bottom;
+    font-family: sans-serif;
+    font-size: x-large;
+   */
+    line-height: 150px;
+    margin-left: 30px;
+    font-size: 100px;
+    font-weight: 900;
+    font-family: "Times New Roman", Times, serif;
+    float: left;
+    /*border:2px solid blue;*/
+}
+
+.text2  {
+    line-height: 10px;
+    clear: left;
+    display: block;;
+    font-size: 20px;
+    font-weight: 5;
+    font-family: "Times New Roman", Times, serif;
+}
+
+h1, h2, h3
+{
+  line-height: 1.2
+}
